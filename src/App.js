@@ -21,10 +21,14 @@ export const ChannelContext = React.createContext();
 function App() {
   return (
     <div className="App">
+      //{" "}
       <UserContext.Provider value={"Aman"}>
+        //{" "}
         <ChannelContext.Provider value={"Codevolution"}>
-          <ComponentC />
+          // <ComponentC />
+          //{" "}
         </ChannelContext.Provider>
+        //{" "}
       </UserContext.Provider>
       {/* <Datafeaching /> */}
       {/* <IntervalHookCounter />
